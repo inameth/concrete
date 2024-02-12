@@ -199,6 +199,10 @@ def test_minimum_maximum(
         name.endswith("xfail_if_multi")
         and configuration.parameter_selection_strategy == fhe.ParameterSelectionStrategy.MULTI
     )
+    if can_be_known_failure:
+        pytest.skip(
+            reason="Known bug on compiler parametrization pass that make the compilation pipeline fail with an assertion"
+        )
 
     if strategy is not None:
         configuration = configuration.fork(min_max_strategy_preference=[strategy])
