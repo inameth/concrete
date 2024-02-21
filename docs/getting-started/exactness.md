@@ -18,9 +18,9 @@ However, if you set `global_p_error` to `0.01`, the whole circuit will have 1% p
 
 If you set both of them, both will be satisfied. Essentially, the stricter one will be used.
 
-By default, both `p_error` and `global_p_error` is set to `None`, which results in a `global_p_error` of `1 / 100_000` being used.&#x20;
+By default, both `p_error` and `global_p_error` is set to `None`, which results in a `global_p_error` of `1 / 100_000` being used.
 
-Feel free to play with these configuration options to pick the one best suited for your needs! See [How to Configure](../howto/configure.md) to learn how you can set a custom `p_error` and/or `global_p_error`.
+Feel free to play with these configuration options to pick the one best suited for your needs! See [How to Configure](../guides/configure.md) to learn how you can set a custom `p_error` and/or `global_p_error`.
 
 {% hint style="info" %}
 Configuring either of those variables impacts computation time (compilation, keys generation, circuit execution) and space requirements (size of the keys on disk and in memory). Lower error probabilities would result in longer computation times and larger space requirements.

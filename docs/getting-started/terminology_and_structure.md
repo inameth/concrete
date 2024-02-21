@@ -19,6 +19,6 @@ In this section, we briefly discuss the module structure of **Concrete Python**.
     * **values:** value specifications (i.e., data type + shape + encryption status)
     * **representation:** representation of computation (e.g., computation graphs, nodes)
     * **tracing:** tracing of python functions
-    * **extensions:** custom functionality (see [Extensions](../tutorial/extensions.md))
+    * **extensions:** custom functionality (see [Extensions](../fundamentals/extensions.md))
     * **mlir:** computation graph to mlir conversion
     * **compilation:** configuration, compiler, artifacts, circuit, client/server, and anything else related to compilation

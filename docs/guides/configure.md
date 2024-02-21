@@ -90,21 +90,21 @@ Additional kwargs to `compile` functions take higher precedence. So if you set t
   * Display a progress bar during circuit execution
 * **progress\_title**: str = "",
   * Title of the progress bar
-* **progress\_tag**: Union[bool, int] = False,
+* **progress\_tag**: Union\[bool, int] = False,
   * How many nested tag elements to display with the progress bar. `True` means all tag elements and `False` disables the display. `2` will display `elmt1.elmt2`
 * **fhe\_simulation**: bool = False
   * Enable FHE simulation. Can be enabled later using `circuit.enable_fhe_simulation()`.
 * **fhe\_execution**: bool = True
   * Enable FHE execution. Can be enabled later using `circuit.enable_fhe_execution()`.
-* **compiler_debug_mode**: bool = False,
+* **compiler\_debug\_mode**: bool = False,
   * Enable/disable debug mode of the compiler. This can show a lot of information, including passes and pattern rewrites.
-* **compiler_verbose_mode**: bool = False,
+* **compiler\_verbose\_mode**: bool = False,
   * Enable/disable verbose mode of the compiler. This mainly show logs from the compiler, and is less verbose than the debug mode.
-* **comparison_strategy_preference**: Optional[Union[ComparisonStrategy, str, List[Union[ComparisonStrategy, str]]]] = None
-  * Specify preference for comparison strategies, can be a single strategy or an ordered list of strategies. See [Comparisons](../tutorial/comparisons.md) to learn more.
-* **bitwise_strategy_preference**: Optional[Union[BitwiseStrategy, str, List[Union[BitwiseStrategy, str]]]] = None
-  * Specify preference for bitwise strategies, can be a single strategy or an ordered list of strategies. See [Bitwise](../tutorial/bitwise.md) to learn more.
-* **shifts_with_promotion**: bool = True,
-  * Enable promotions in encrypted shifts instead of casting in runtime. See [Bitwise#Shifts](../tutorial/bitwise.md#Shifts) to learn more.
+* **comparison\_strategy\_preference**: Optional\[Union\[ComparisonStrategy, str, List\[Union\[ComparisonStrategy, str]]]] = None
+  * Specify preference for comparison strategies, can be a single strategy or an ordered list of strategies. See [Comparisons](../fundamentals/comparisons.md) to learn more.
+* **bitwise\_strategy\_preference**: Optional\[Union\[BitwiseStrategy, str, List\[Union\[BitwiseStrategy, str]]]] = None
+  * Specify preference for bitwise strategies, can be a single strategy or an ordered list of strategies. See [Bitwise](../fundamentals/bitwise.md) to learn more.
+* **shifts\_with\_promotion**: bool = True,
+  * Enable promotions in encrypted shifts instead of casting in runtime. See [Bitwise#Shifts](../fundamentals/bitwise.md#Shifts) to learn more.
 * **composable**: bool = False,
   * Specify that the function must be composable with itself.
