@@ -1,10 +1,10 @@
-# WELCOME
+# Welcome to Concrete
 
-⭐️[ Star the repo on Github](https://github.com/zama-ai/concrete) | 📚 [FHE Resources by Zama](https://github.com/zama-ai/awesome-zama/tree/main)&#x20;
+⭐️[ Star the repo on Github](https://github.com/zama-ai/concrete) | 📚 [FHE resources by Zama](https://github.com/zama-ai/awesome-zama/tree/main) | 💬 [Community support ](https://community.zama.ai/)
 
-<figure><img src=".gitbook/assets/Concrete ML (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/doc header.png" alt=""><figcaption></figcaption></figure>
 
-**Concrete** is an open-source FHE Compiler that simplifies the use of Fully Homomorphic Encryption (FHE).&#x20;
+**Concrete** is an open-source FHE Compiler that simplifies the use of Fully Homomorphic Encryption (FHE).
 
 ### Start here
 
@@ -14,9 +14,9 @@ Learn the basics of Concrete, set it up, and make it run with ease.
 
 ### Build with Concrete
 
-Start building with Concrete by exploring its core features, following step-by-step guides, and diving into user-friendly tutorials.
+Start building with Concrete by exploring its core features, following deployment guides, and diving into user-friendly tutorials step by step.
 
-<table data-view="cards"><thead><tr><th align="center"></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><strong>Fundamentals</strong></td><td>Explore core features of Concrete with  code examples.</td><td><ul><li><a href="fundamentals/decorator.md">Decorator</a></li><li><a href="fundamentals/progressbar.md">Progressbar</a></li><li><a href="fundamentals/formatting.md">Formatting</a></li><li><a href="fundamentals/tagging.md">Tagging</a></li></ul></td><td><a href=".gitbook/assets/Untitled design (7).png">Untitled design (7).png</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td align="center"><strong>Guides</strong></td><td>Discover essential deployment guides to streamline your projects.</td><td><ul><li><a href="guides/configure.md">Configure</a></li><li><a href="guides/manage_keys.md">Manage keys</a></li><li><a href="guides/deploy.md">Deploy</a></li><li><a href="guides/debug.md">Debug</a></li></ul></td><td><a href=".gitbook/assets/2.png">2.png</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td align="center"><strong>Tutorials</strong></td><td>Follow step-by-step guides to build use case examples with Concrete.</td><td><ul><li><a href="tutorials/key_value_database.md">Key value database</a></li><li><a href="tutorials/sha256.md">SHA-256</a></li><li><a href="tutorials/game_of_life.md">Game of Life</a></li></ul></td><td><a href=".gitbook/assets/1.png">1.png</a></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th align="center"></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><strong>Fundamentals</strong></td><td>Explore core features of Concrete with code examples.</td><td><ul><li><a href="fundamentals/decorator.md">Decorator</a></li><li><a href="fundamentals/progressbar.md">Progressbar</a></li><li><a href="fundamentals/formatting.md">Formatting</a></li><li><a href="fundamentals/tagging.md">Tagging</a></li></ul></td><td><a href=".gitbook/assets/3.png">3.png</a></td><td><a href="broken-reference/">broken-reference</a></td></tr><tr><td align="center"><strong>Guides</strong></td><td>Discover essential deployment guides to streamline your projects.</td><td><ul><li><a href="guides/configure.md">Configure</a></li><li><a href="guides/manage_keys.md">Manage keys</a></li><li><a href="guides/deploy.md">Deploy</a></li><li><a href="guides/debug.md">Debug</a></li></ul></td><td><a href=".gitbook/assets/2.png">2.png</a></td><td><a href="broken-reference/">broken-reference</a></td></tr><tr><td align="center"><strong>Tutorials</strong></td><td>Follow step-by-step guides to build use case examples with Concrete.</td><td><ul><li><a href="tutorials/see-all-tutorials.md#start-here">Start here</a></li><li><a href="tutorials/see-all-tutorials.md#go-further">Go further</a></li></ul></td><td><a href=".gitbook/assets/1.png">1.png</a></td><td><a href="broken-reference/">broken-reference</a></td></tr></tbody></table>
 
 ### Explanations
 
@@ -26,18 +26,17 @@ Review product architecture, and access additional resources for in-depth explan
 
 ### Support
 
-Our team of experts usually answers within 24 hours in working days.&#x20;
+Our team of experts usually answers within 24 hours in working days.
 
-<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">💬 <strong>Community Forum</strong> </td><td>Raise your technical problems and find solutions to common issues</td><td><a href="https://community.zama.ai/">https://community.zama.ai/</a></td></tr><tr><td align="center">👾 <strong>Discord Channel</strong></td><td>Discuss FHE-related topics with our research team and the community on live</td><td><a href="https://discord.com/invite/fhe-org">https://discord.com/invite/fhe-org</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">💬 <strong>Community Forum</strong></td><td>Raise your technical problems and find solutions to common issues</td><td><a href="https://community.zama.ai/">https://community.zama.ai/</a></td></tr><tr><td align="center">👾 <strong>Discord Channel</strong></td><td>Discuss FHE-related topics with our research team and the community on live</td><td><a href="https://discord.com/invite/fhe-org">https://discord.com/invite/fhe-org</a></td></tr></tbody></table>
 
 ### Developers
 
-* [Contribute](dev/contributing.md) to Concrete
+* [Contribute to Concrete](dev/contributing.md)
 * [Latest release note](https://github.com/zama-ai/concrete/releases)
-* [Feature request ](https://github.com/zama-ai/concrete/issues/new?assignees=\&labels=feature\&projects=\&template=features.md)
+* [Feature request](https://github.com/zama-ai/concrete/issues/new?assignees=\&labels=feature\&projects=\&template=features.md)
 * [Bug report](https://github.com/zama-ai/concrete/issues/new?assignees=\&labels=bug%2C+triage\&projects=\&template=bug\_report.md)
 
 ***
 
-💌  Message from the team:\
-Hi there, we're happy to have you with us to advance the FHE spaces! Would you like to take 1 minute to tell us about your experience with Concrete? [Click here ->](./#support) (survey link)
+<figure><picture><source srcset=".gitbook/assets/feedback_banner_dark.png" media="(prefers-color-scheme: dark)"><img src=".gitbook/assets/feedback_banner_light.png" alt=""></picture><figcaption></figcaption></figure>
