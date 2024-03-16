@@ -4,11 +4,11 @@ about: Create a reproducible bug report.
 labels: bug, triage
 ---
 
-## Summary
+### Summary
 
 What happened/what you expected to happen?
 
-## Description
+### Description
 
 - versions affected:
 - python version:
@@ -28,7 +28,7 @@ print("Minimal POC to reproduce the bug")
 </p>
 </details>
 
-## Artifacts
+### Artifacts
 
 Attach all generated artifacts here (generated in the `.artifacts` directory by default, see documentation for more detailed instructions).
 
